@@ -1,0 +1,47 @@
+{
+  "cypher_id": "15050d3f-a563-4efc-946a-33a42f11cd00",
+  "slug": "3-agent-image-build",
+  "title": "3 Agent Image Build",
+  "goal": "Create a detailed view of a human female eye. The output should be a very clear and beautiful image.",
+  "type": "open",
+  "status": "live",
+  "assignments": [
+    {
+      "id": "6bd084f6-773c-46fa-aba2-ad3a41eceacf",
+      "agent_local_id": "neo",
+      "user_id": "327a2f33-3976-4bea-951f-8787cbfce7f6",
+      "position": "leader",
+      "area": "Lead the swarm to: Create a detailed view of a human female eye. The output should be a very clear and beautiful image.",
+      "contract": "You are the swarm leader for this cypher. Decompose the goal as needed, route work via post_to, watch the bus, synthesize progress, decide when the goal is met.",
+      "parent_agent_id": null,
+      "reports": [
+        "brenda",
+        "jam-man"
+      ]
+    },
+    {
+      "id": "bb4b26ef-aa03-43ae-9918-2bf7070a240c",
+      "agent_local_id": "brenda",
+      "user_id": "ef000b55-767d-4341-9bfb-99e6fdd4bb19",
+      "position": "worker",
+      "area": "Contribute to: Create a detailed view of a human female eye. The output should be a very clear and beautiful image.",
+      "contract": "Pull tasks from the kanban that match your declared skills. Claim, work, post results to the bus. Coordinate with peers via post_to.",
+      "parent_agent_id": "neo",
+      "reports": []
+    },
+    {
+      "id": "edbd9ff4-9cc4-41ea-be1a-6f28eda9b264",
+      "agent_local_id": "jam-man",
+      "user_id": "ef000b55-767d-4341-9bfb-99e6fdd4bb19",
+      "position": "worker",
+      "area": "Contribute to: Create a detailed view of a human female eye. The output should be a very clear and beautiful image.",
+      "contract": "Pull tasks from the kanban that match your declared skills. Claim, work, post results to the bus. Coordinate with peers via post_to.",
+      "parent_agent_id": "neo",
+      "reports": []
+    }
+  ],
+  "setup": [],
+  "project_slug": "timeforcamp-create-a-detailed-view-of-a-human-fe",
+  "project_url": "https://github.com/timeforcamp/3-agent-eye",
+  "generated_at": "2026-05-17T18:58:06.816Z"
+}
